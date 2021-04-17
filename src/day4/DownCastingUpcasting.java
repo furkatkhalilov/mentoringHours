@@ -46,10 +46,10 @@ public class DownCastingUpcasting {
 
         //Task: You have two integer numbers 10 and 3. Divide this two numbers and get the output with the decimals.
 
+        int taskNumber1 = 10;
+        int taskNumber2 = 3;
 
-
-
-
-
+        float result2 = (float)taskNumber1/taskNumber2;
+        System.out.println("result2 = " + result2);
     }
 }
