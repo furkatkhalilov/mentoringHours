@@ -2,6 +2,8 @@ package day4;
 
 public class FloatPrimitiveDataType {
 
+    static float number1;
+
     public static void main(String[] args) {
 
         float floatNumberMin = Float.MIN_VALUE;
@@ -17,6 +19,6 @@ public class FloatPrimitiveDataType {
         float example1 = 1.123456789f;
         System.out.println("example1 = " + example1);
 
-
+        System.out.println(number1); // 0.0F, 0.0f
     }
 }
