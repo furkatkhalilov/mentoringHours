@@ -30,13 +30,15 @@ public class BooleanPrimitiveDataType {
         boolean NumbersAreEqual = num1!=num2;
         System.out.println("NumbersAreEqual = " + NumbersAreEqual);
 
-        int [] arr = new int[2]; // in this line i am creating a int char array. assigning the size by giving 2;
-                                // by default, when you create any char arrays, the value is going to be the default value of primitive type.
+        int [] arr = new int[2]; // in this line i am creating a int array. assigning the size by giving 2;
+                                // by default, when you create any arrays, the value is going to be the default value of primitive type.
 
         int length = arr.length;
         System.out.println("length = " + length);
 
         boolean checkIfArrIsEmpty = length==0;
         System.out.println("checkIfArrIsEmpty = " + checkIfArrIsEmpty);
+
+        //Hi Rahima
     }
 }
