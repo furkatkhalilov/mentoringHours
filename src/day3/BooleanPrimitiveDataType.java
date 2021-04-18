@@ -39,6 +39,6 @@ public class BooleanPrimitiveDataType {
         boolean checkIfArrIsEmpty = length==0;
         System.out.println("checkIfArrIsEmpty = " + checkIfArrIsEmpty);
 
-        //Hi Rahima
+
     }
 }
