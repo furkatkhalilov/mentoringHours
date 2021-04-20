@@ -16,6 +16,5 @@ public class StringEquals {
         boolean equals2 = str.toLowerCase().equals(str2);
         System.out.println("equals1 = " + equals2);
 
-
     }
 }

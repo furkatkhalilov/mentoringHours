@@ -14,7 +14,5 @@ public class StringsToLowerOrToUpperCase {
         str1 = str1.toLowerCase();
         System.out.println("str2 = " + str1);
 
-
-
     }
 }
