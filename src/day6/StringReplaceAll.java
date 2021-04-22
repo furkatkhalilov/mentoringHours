@@ -1,5 +1,8 @@
 package day6;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class StringReplaceAll {
 
     public static void main(String[] args) {
@@ -13,8 +16,6 @@ public class StringReplaceAll {
         String example = " ADFADFADFADlADFADFADFo123213123    12312312v$e ";
         example = example.replaceAll("[0-9A-Z$ ]","");
         System.out.println("example = " + example);
-
-
 
     }
 }
