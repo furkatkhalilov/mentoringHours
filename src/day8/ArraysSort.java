@@ -25,6 +25,6 @@ public class ArraysSort {
         System.out.println("charArray = " + Arrays.toString(charArray));
 
 
-        // Hi Li
+
     }
 }
