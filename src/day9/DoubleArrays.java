@@ -44,9 +44,5 @@ public class DoubleArrays {
         System.out.println("Arrays.deepToString ====>>>> " + Arrays.deepToString(int2DArray));
 
 
-
-
-
-
     }
 }
