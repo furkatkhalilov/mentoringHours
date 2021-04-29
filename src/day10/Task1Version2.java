@@ -12,25 +12,19 @@ public class Task1Version2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter your product");
+        System.out.println("Please enter your product and it`s price");
         String product1 = scanner.nextLine();
 
-        System.out.println("Please enter product`s price");
-        String product1Price = scanner.nextLine(); // $1.50
 
-
-        System.out.println("Please enter your second product");
+        System.out.println("Please enter your second product and it`s price");
         String product2 = scanner. nextLine();
 
-        System.out.println("Please enter product2`s price");
-        String product2Price = scanner.nextLine(); // $2.50
-
-        String s = product1Price.replaceAll("[^\\d.]", "");
-        String s1 = product2Price.replaceAll("[^\\d.]", "");
+        String s = product1.replaceAll("[^\\d.]", "");
+        String s1 = product2.replaceAll("[^\\d.]", "");
 
         double total = Double.parseDouble(s) + Double.parseDouble(s1);
 
         System.out.println("Your purchased " + product1 + " $ " + product2);
-        System.out.println("Your total is = " + total);
+        System.out.println("Your total is = $" + total);
     }
 }
