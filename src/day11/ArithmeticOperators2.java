@@ -49,13 +49,5 @@ public class ArithmeticOperators2 {
         b3--;
         System.out.println(" b3 = " + b3--);
 
-        // Addition assignment (+=)
-        // Subtraction assignment (-=)
-        // Multiplication assignment (*=)
-        // Division assignment (/=)
-        // Remainder assignment (%=)
-
-
-
     }
 }
