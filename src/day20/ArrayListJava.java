@@ -16,6 +16,7 @@ public class ArrayListJava {
 
         // Collection class has three different subclasses. List, Set, Map
 
+
         ArrayList<Integer> mylist = new ArrayList<>();
 
         mylist.add(1);

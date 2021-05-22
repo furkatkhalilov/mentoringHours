@@ -1,0 +1,55 @@
+package day21;
+
+import java.util.Arrays;
+
+public class SP1 {
+    public static void main(String[] args) {
+/*
+
+   Create a method whose name is updateRange
+   As parameters it takes an int array, and two int values (in order)
+       The first parameter is an int array,
+       the second parameter is an int (lower bound),
+       and the third parameter is an int (upper bound)
+       Upper bound is always given as bigger than or equal to lower bound.
+   It returns an int array
+
+   The method changes all elements in the int array which are between the lower bound and the upper bound to -1.
+   It keeps the elements in the array if the elements is equal to or out of the range of the lower and upper boundaries.
+
+   Sample:
+   int array = [1,6,12,15,22,18,30,16]
+   lower bound = 12
+   upper bound = 20
+   it returns [1,6,12,-1,22,-1,30,-1]
+
+ */
+
+        int[] arr  = {1,6,12,15,22,18,30,16};
+
+        System.out.println(Arrays.toString(updateRange2(arr,12,20)));
+
+
+    }
+
+    public static int[] updateRange(int[] arr, int low, int up){
+
+        for (int i = 0; i < arr.length; i++) {
+            if(arr[i] > low && arr[i]<up){
+                arr[i] = -1;
+            }
+        }
+
+
+        return arr;
+    }
+
+    public static int[] updateRange2(int[] arr, int low, int up){
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (arr[i] > low && arr[i]<up) ? -1 : arr[i];
+        }
+
+        return arr;
+    }
+}
