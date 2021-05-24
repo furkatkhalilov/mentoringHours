@@ -40,11 +40,11 @@ public class SPGaussSum {
         for (int i = 1; i <=  number; i++) {
             total += i;
         }
-
+        System.out.println(total);
         return total;
     }
 
     public static int sumOfSquaresOfGaussSums (int n1, int n2){
-        return (int)(Math.pow(gaussSumOf(1),2) + Math.pow(gaussSumOf(n2), 2));
+        return (int)(Math.pow(gaussSumOf(n1),2) + Math.pow(gaussSumOf(n2), 2));
     }
 }
