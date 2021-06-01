@@ -98,6 +98,8 @@ public class Tasks {
 
         totalStudents.removeIf(student -> student.startsWith("S") || student.contains("e") || student.length()>5);
 
+        // Predicate / lambda expression
+
         return totalStudents;
     }
 
