@@ -15,6 +15,9 @@ public class Task1 {
         HashMap<Integer, Integer> integerIntegerHashMap = countQuantity2(list);
         System.out.println("integerIntegerHashMap = " + integerIntegerHashMap);
 
+
+
+
     }
 
     public static HashMap<Integer, Integer> countQuantity (ArrayList<Integer> list){

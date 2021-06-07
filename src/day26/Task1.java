@@ -49,6 +49,28 @@ public class Task1 {
 
         System.out.println(cities);
 
+        // Task 4
+
+        int[] key = {14894,10506,14893,10451};
+        String[] values = {"Wellsburg City", "Bedford Hills City", "Wayne City", "Bronx City"} ;
+//        cities.computeIfAbsent(14894, value -> "Wellsburg City");
+//        cities.computeIfAbsent(10506, value -> "Bedford Hills City");
+//        cities.computeIfAbsent(14893, value -> "Wayne City");
+//        cities.computeIfAbsent(10451, value -> "Bronx City");
+
+        for (int i = 0; i < key.length; i++) {
+            int j = i;
+            cities.computeIfAbsent(key[i], cityName -> values[j] );
+        }
+        System.out.println(cities);
+
+        // Task 5
+        int[] keysToPrint = {501, 1001, 10501, 11230, 10505};
+
+        for (int i = 0; i < keysToPrint.length; i++) {
+            System.out.println(cities.getOrDefault(keysToPrint[i], "\"Postcode you entered is not in the list\""));
+        }
+
     }
 
 
