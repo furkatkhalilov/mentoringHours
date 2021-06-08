@@ -43,7 +43,7 @@ public class Task6 {
         return map;
     }
 
-    public static HashMap<String, Integer> countFruits2 (String[] arr){
+    final static HashMap<String, Integer> countFruits2 (String[] arr){
         HashMap<String, Integer> map =  new HashMap<String, Integer>();
         for (int i = 0; i < arr.length; i++) {
             map.computeIfPresent(arr[i], (k,v) -> v += 1 );
