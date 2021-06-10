@@ -30,7 +30,7 @@ public class SaturdayProjectTask2 {
         ArrayList<Integer> list = new ArrayList<>(set);
         boolean isNotSorted = false;
 
-        while(isNotSorted == true){
+        while(isNotSorted){
             for (int i = 0; i < list.size()-1; i++) {
                 int number1 = list.get(i);
                 int number2 = list.get(i + 1);
